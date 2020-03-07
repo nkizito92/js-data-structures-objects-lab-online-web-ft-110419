@@ -7,6 +7,12 @@ const drvier = {
   type: "2door"
 };
 
+const newdriver = {
+   name: "Godswill",
+  vehicle: "Nissan",
+  type: "4door"
+}
+
 function updateDriverWithKeyAndValue(driver, key, value) {
   return Object.assign({}, driver, {[key]: value});
 }
