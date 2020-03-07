@@ -13,8 +13,6 @@ const newdriver = {
   type: "4door"
 }
 
-function updateDriverWithKeyAndValue(oldDriver, newDriver) {
-  return Object.assign({}, oldDriver, newDriver);
+function updateDriverWithKeyAndValue(driver, key, value) {
+  return Object.assign({}, driver, {[key]: value});
 }
-
-updateDriverWithKeyAndValue(drvier, newDriver)
