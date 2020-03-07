@@ -1,7 +1,7 @@
 // Write your solution in this file!
 
 
-const drvier = {
+const driver = {
   name: "Kizito",
   vehicle: "Honda",
   type: "2door"
