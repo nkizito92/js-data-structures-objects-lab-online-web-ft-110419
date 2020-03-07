@@ -34,7 +34,7 @@ debugger
   return clone  
 }
 
-deleteFromDriverByKey(newDriver, "type")
+deleteFromDriverByKey(newdriver, "type")
 
 
 function destructivelyeDeleteFromDriverByKey(driver, key) {
