@@ -28,7 +28,6 @@ function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
 destructivelyUpdateDriverWithKeyAndValue(driver, "transmition", "Automadic")
 
 function deleteFromDriverByKey(obj, key) {
-debugger
     const clone = obj
    delete clone.key
   return clone  
