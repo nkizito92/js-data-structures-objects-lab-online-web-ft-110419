@@ -8,5 +8,5 @@ const drvier = {
 };
 
 function updateDriverWithKeyAndValue(driver, key, value) {
-  return Object.assign( driver, engine, "Standard");
+  return Object.assign( driver, key, value);
 }
