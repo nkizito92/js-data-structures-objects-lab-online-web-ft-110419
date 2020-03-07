@@ -20,8 +20,9 @@ const updateDriver = updateDriverWithKeyAndValue(driver, 'engine', 'Standard');
 updateDriver
 
 
-function destructivelyUpdateDriverWithKeyAndValue(oldDriver, newDriver) {
-  return Object.assign({}, oldDriver, newDriver);
+function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
+  driver[key] = value;
+  return
 }
 
 function deleteFromDriverByKey(driver, key) {
