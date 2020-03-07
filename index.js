@@ -32,7 +32,7 @@ function deleteFromDriverByKey(obj, key) {
   return obj
 }
 
-deleteFromDriverByKey(newDriver, "transmition")
+deleteFromDriverByKey(newDriver, "type")
 
 
 function destructivelyeDeleteFromDriverByKey(driver, key) {
