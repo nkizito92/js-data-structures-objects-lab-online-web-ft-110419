@@ -29,7 +29,7 @@ destructivelyUpdateDriverWithKeyAndValue(driver, "transmition", "Automadic")
 
 function deleteFromDriverByKey(obj, key) {
    delete obj.key
-  return newPerson
+  return obj
 }
 
 deleteFromDriverByKey(driver, "transmition")
